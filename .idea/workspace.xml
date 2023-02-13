@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="задачи">
-      <change afterPath="$PROJECT_DIR$/src/transport/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transport/Transport.java" afterDir="false" />
+    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="задачи1">
+      <change afterPath="$PROJECT_DIR$/src/transport/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/DriverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/DriverC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/DriverD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/Trukc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/Сompeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transport/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Key.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Задачи" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +78,8 @@
       <workItem from="1675688180181" duration="5370000" />
       <workItem from="1675766245443" duration="4174000" />
       <workItem from="1676027412986" duration="59000" />
-      <workItem from="1676029956848" duration="3350000" />
+      <workItem from="1676029956848" duration="4109000" />
+      <workItem from="1676294352994" duration="7017000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1675269715015</created>
@@ -93,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675769635185</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="задачи1">
+      <created>1676034928654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676034928654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первый коммит" />
     <MESSAGE value="задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="задачи" />
+    <MESSAGE value="задачи1" />
+    <option name="LAST_COMMIT_MESSAGE" value="задачи1" />
   </component>
 </project>
