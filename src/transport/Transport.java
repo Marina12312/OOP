@@ -5,8 +5,9 @@ public abstract class Transport <T extends Driver>implements Сompeting {
     private final String model;
     private double engineVolume;
     private T driver;
+    private Type type;
 
-    public Transport(String brand, String model, double engineVolume,T driver) {
+    public Transport(String brand, String model, double engineVolume,T driver,Type type) {
         if (brand == null || brand.isEmpty()) {
             brand = "default";
         }
@@ -17,6 +18,7 @@ public abstract class Transport <T extends Driver>implements Сompeting {
         this.model = model;
         setEngineVolume(engineVolume);
         setDriver(driver);
+
 
     }
 
@@ -42,6 +44,15 @@ public abstract class Transport <T extends Driver>implements Сompeting {
         }
         return engineVolume;
     }
+    public  Type getType(){
+        return this.type;
+    };
+
+    public void setType(Type type) {
+        this.type = type;
+    }
+
+    public abstract void printType();
 
     public void setEngineVolume(double engineVolume) {
         this.engineVolume = engineVolume;

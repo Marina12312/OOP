@@ -2,10 +2,14 @@ package transport;
 
 public class Trukc extends Transport<DriverC>{
 
-    public Trukc(String brand, String model, double engineVolume, DriverC driver) {
-        super(brand, model, engineVolume, driver);
+    public Trukc(String brand, String model, double engineVolume, DriverC driver, BodyType bodyType) {
+        super(brand, model, engineVolume, driver,Type.TRUCK);
     }
 
+    @Override
+    public void printType() {
+
+    }
 
 
     @Override
@@ -38,4 +42,32 @@ public class Trukc extends Transport<DriverC>{
         int maxSpeed=(int) ( minBound+ (maxBound-minBound) * Math.random());
         System.out.println("Лучшая скорость для грузовой: :"+ maxSpeed);
     }
+    public Type getType() {
+        return Type.TRUCK;
+    }
+
+    BodyType bodyType;
+
+
+    public enum BodyType {
+        N1(null, 3.5F),
+        N2(3.5F, 12F),
+        N3(12F, null);
+
+        private Float minMass;
+        private Float maxMass;
+
+        BodyType(Float minMass, Float maxMass) {
+            this.minMass = minMass;
+            this.maxMass = maxMass;
+        }
+
+        @Override
+        public String toString() {
+            return  (minMass == null ? " "  : " minMass= " + String.valueOf(minMass)) +
+                    (maxMass == null ? " " : " maxMass= " + String.valueOf(maxMass)) +
+                    '}';
+        }
+    }
+
 }

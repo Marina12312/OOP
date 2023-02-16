@@ -3,8 +3,15 @@ package transport;
 public class Car extends Transport<DriverB> {
 
 
-    public Car(String brand, String model, double engineVolume, DriverB driver) {
-        super(brand, model, engineVolume, driver);
+
+
+    public Car(String brand, String model, double engineVolume, DriverB driver, BodyType bodyType) {
+        super(brand, model, engineVolume, driver,Type.CAR);
+    }
+
+    @Override
+    public void printType() {
+
     }
 
     @Override
@@ -39,6 +46,41 @@ public class Car extends Transport<DriverB> {
         int maxSpeed= (int) ( minBound+ (maxBound-minBound) * Math.random());
         System.out.println("Лучшая скорость для лекговой машины : :"+ maxSpeed);
     }
+    @Override
+    public Type getType() {
+        return Type.CAR;
+    }
+
+    public enum BodyType {
+        SEDAN("Седан"),
+        HATCHBACK("Хэтчбэк"),
+        COUPE("Купе"),
+        ESTATE("Уневерсал"),
+        SUV("Внедорожник"),
+        CROSSOVER("Кроссовер"),
+        PICKUP("Пикап"),
+        VAN("Фургон"),
+        MINIVAN("Минивен");
+
+
+        private String bodyType;
+
+
+        BodyType(String bodyType) {
+            this.bodyType = bodyType;
+        }
+        @Override
+        public String toString() {
+            return ", тип кузова: " + bodyType +
+                    " ";
+        }
+
+
+    }
+
+
+    BodyType bodyType;
+
 }
 
 
