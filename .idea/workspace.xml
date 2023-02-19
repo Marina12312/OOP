@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="Enum">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport/Trukc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Trukc.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="Enum исправила замечание" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
       <workItem from="1676294352994" duration="7932000" />
       <workItem from="1676365423904" duration="3958000" />
       <workItem from="1676537378891" duration="4835000" />
-      <workItem from="1676816084245" duration="387000" />
+      <workItem from="1676816084245" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1675269715015</created>
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676541820527</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Enum исправила замечание">
+      <created>1676816815971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676816815971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +143,7 @@
     <MESSAGE value="задачи1" />
     <MESSAGE value="задачи" />
     <MESSAGE value="Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enum" />
+    <MESSAGE value="Enum исправила замечание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enum исправила замечание" />
   </component>
 </project>
