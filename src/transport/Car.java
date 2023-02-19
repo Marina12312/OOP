@@ -11,8 +11,14 @@ public class Car extends Transport<DriverB> {
 
     @Override
     public void printType() {
-
+        if (getType() != null) {
+            System.out.println(getType());
+        } else {
+            System.out.println("Данных по транспортному средству недостаточно");
+        }
     }
+
+
 
     @Override
     public void startMove() {
@@ -79,8 +85,15 @@ public class Car extends Transport<DriverB> {
     }
 
 
-    BodyType bodyType;
+    private BodyType bodyType;
 
+    public BodyType getBodyType() {
+        return bodyType;
+    }
+
+    public void setBodyType(BodyType bodyType) {
+        this.bodyType = bodyType;
+    }
 }
 
 

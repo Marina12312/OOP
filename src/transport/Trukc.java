@@ -8,6 +8,11 @@ public class Trukc extends Transport<DriverC>{
 
     @Override
     public void printType() {
+                if (getType() != null) {
+            System.out.println(getType());
+        } else {
+            System.out.println("Данных по транспортному средству недостаточно");
+        }
 
     }
 
@@ -46,8 +51,15 @@ public class Trukc extends Transport<DriverC>{
         return Type.TRUCK;
     }
 
-    BodyType bodyType;
+    private BodyType bodyType;
 
+    public BodyType getBodyType() {
+        return bodyType;
+    }
+
+    public void setBodyType(BodyType bodyType) {
+        this.bodyType = bodyType;
+    }
 
     public enum BodyType {
         N1(null, 3.5F),
