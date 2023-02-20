@@ -61,6 +61,9 @@ public abstract class Transport <T extends Driver>implements Сompeting {
 
     public abstract void finishMove();
 
+    public abstract void passDiagnostics() throws TransportTypeException;
+
+
     public void printInfo(){
         System.out.println("водитель "+driver.getName()+" управляет автомобилем"+getBrand()+" Б и будет участвовать в заезде");
     }

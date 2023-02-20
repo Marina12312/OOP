@@ -29,6 +29,12 @@ public class Bus extends Transport<DriverD> {
     }
 
     @Override
+    public void passDiagnostics() throws TransportTypeException {
+        throw new TransportTypeException();
+    }
+
+
+    @Override
     public void pitStop() {
         System.out.println("Пит_стоп у автобуса");
     }

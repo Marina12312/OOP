@@ -28,6 +28,12 @@ public class Trukc extends Transport<DriverC>{
     }
 
     @Override
+    public void passDiagnostics() throws TransportTypeException {
+        System.out.println("Грузовик " + getBrand() + " " + getModel() + " проходит диагностику");
+    }
+
+
+    @Override
     public void pitStop() {
         System.out.println("Пит_стоп у грузовой");
     }

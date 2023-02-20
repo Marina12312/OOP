@@ -32,6 +32,12 @@ public class Car extends Transport<DriverB> {
     }
 
     @Override
+    public void passDiagnostics() throws TransportTypeException {
+        System.out.println("Автомобиль " + getBrand() + " " + getModel() + " проходит диагностику");
+    }
+
+
+    @Override
     public void pitStop() {
        System.out.println("Пит_стоп у легковой машины");
     }
