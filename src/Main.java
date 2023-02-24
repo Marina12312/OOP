@@ -1,17 +1,55 @@
-import transport.Car;
-import transport.Key;
+import transport.*;
 
 public class Main {
     public static void main(String[] args) {
-        Car car1 = new Car (null,"Granta",1.7,"желтого цвета",2015,"сборка в России"," ца","ава",434,3,true,new Key(true,false));
-        Car car2 = new Car("Audi ","A8 50 L TDI quattro",3.0,"черный цвет кузова",2020,"сборка в Германии"," ца","ава",434,3,false,new Key(true,false));
-        Car car3 = new Car("BMW ","Z8",3.0,"черный цвет кузова",2021,"сборка в Германии"," ца","ава",434,3,false,new Key(true,false));
-        Car car4 = new Car("Kia ","Sportage 4-го поколения",2.4,"цвет кузова — красный",2018,"сборка в Южной Корее"," ца","ава",434,3,false,new Key(true,false));
-        Car car5 = new Car("Hyundai  ","Avante",1.6,"цвет кузова — оранжевый",2016,"сборка в Южной Корее"," ца","ава",434,3,false,new Key(true,false));
-       car1.print();
-        car2.print();
-        car3.print();
-        car4.print();
-        car5.print();
+        for (int i = 1; i < 4; i = i + 1) {
+            DriverB driverB = new DriverB("Водитель В категории  № " + i,
+                    false,
+                    3 + i);
+            Car car = new Car("Легковая брэнд № " + i,
+                    "Легковая модель № " + i,
+                    1.6,
+                    driverB, Car.BodyType.SEDAN);
+
+            DriverD driverD = new DriverD("Водитель D категории № " + i,
+                    false,
+                    3 + i);
+            Bus bus = new Bus("Автобус брэнд № " + i,
+                    "Автобус модель № " + i,
+                    1.4,
+                    driverD, Bus.BodyType.LARGE);
+
+            DriverC driverC = new DriverC("Водитель С категории  № " + i,
+                    false,
+                    3 + i);
+            Trukc trukc = new Trukc("Грузовик брэнд № " + i,
+                    "Грузовик модель № " + i,
+                    2.0,
+                    driverC, Trukc.BodyType.N1);
+            printInfo(car);
+            printInfo(bus);
+            printInfo(trukc);
+
+        }
+    }
+
+    private static void printInfo(Transport<?> transport) {
+        System.out.println(transport.getDriver().getName() + " управляет автомобилем" + transport.getBrand() + "и будет участвовать в заезде");
+    }
+    public static void checkTransportDiagnostic(Transport<?> transports) {
+
+        if (transports.getType().equals(Type.BUS)) {
+            try {
+                transports.passDiagnostics();
+            } catch (TransportTypeException e) {
+                System.out.println("Автобусам не нужно проходить диагностику");
+            }
+        } else {
+            try {
+                transports.passDiagnostics();
+            } catch (TransportTypeException e) {
+                System.out.println(" ");
+            }
+        }
     }
 }

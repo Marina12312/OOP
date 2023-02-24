@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="задачи">
-      <change afterPath="$PROJECT_DIR$/src/transport/Key.java" afterDir="false" />
+    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="Enum исправила замечание">
+      <change afterPath="$PROJECT_DIR$/src/transport/TransportTypeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Trukc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Trukc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -22,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Задачи1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +72,14 @@
       <updated>1675269698268</updated>
       <workItem from="1675269699518" duration="4034000" />
       <workItem from="1675688180181" duration="5370000" />
-      <workItem from="1675766245443" duration="3032000" />
+      <workItem from="1675766245443" duration="4174000" />
+      <workItem from="1676027412986" duration="59000" />
+      <workItem from="1676029956848" duration="4109000" />
+      <workItem from="1676294352994" duration="7932000" />
+      <workItem from="1676365423904" duration="3958000" />
+      <workItem from="1676537378891" duration="4835000" />
+      <workItem from="1676816084245" duration="1407000" />
+      <workItem from="1676901155771" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1675269715015</created>
@@ -83,7 +95,49 @@
       <option name="project" value="LOCAL" />
       <updated>1675688963707</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="задачи">
+      <created>1675769635185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675769635185</updated>
+    </task>
+    <task id="LOCAL-00004" summary="задачи1">
+      <created>1676034928654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676034928654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="задачи">
+      <created>1676302102630</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676302102630</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Enum">
+      <created>1676541820527</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676541820527</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Enum исправила замечание">
+      <created>1676816815971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676816815971</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Enum исправила замечание">
+      <created>1676816898774</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676816898774</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +156,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первый коммит" />
+    <MESSAGE value="задачи1" />
     <MESSAGE value="задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="задачи" />
+    <MESSAGE value="Enum" />
+    <MESSAGE value="Enum исправила замечание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enum исправила замечание" />
   </component>
 </project>
