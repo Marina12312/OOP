@@ -1,9 +1,11 @@
 package transport;
 
+import java.util.List;
+
 public class Trukc extends Transport<DriverC>{
 
-    public Trukc(String brand, String model, double engineVolume, DriverC driver, BodyType bodyType) {
-        super(brand, model, engineVolume, driver,Type.TRUCK);
+    public Trukc(String brand, String model, double engineVolume, DriverC driver, BodyType bodyType, List<Mechanic> mechanicList) {
+        super(brand, model, engineVolume, driver,Type.TRUCK,mechanicList);
     }
 
     @Override
