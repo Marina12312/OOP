@@ -1,7 +1,7 @@
 import transport.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,10 +14,12 @@ public class Main {
             DriverB driverB = new DriverB("Водитель В категории  № " + i,
                     false,
                     3 + i);
+
+
             Car car = new Car("Легковая брэнд № " + i,
                     "Легковая модель № " + i,
-                    1.6,
-                    driverB, Car.BodyType.SEDAN,mechanicList);
+                    1.6,driverB
+                    , Car.BodyType.SEDAN,mechanicList);
 
             DriverD driverD = new DriverD("Водитель D категории № " + i,
                     false,
@@ -38,6 +40,27 @@ public class Main {
             printInfo(car);
             printInfo(bus);
             printInfo(trukc);
+
+            HashSet<Driver> driverList = new HashSet<>();
+            driverList.add(driverC);
+            driverList.add(driverB);
+            driverList.add(driverD);
+
+
+            HashMap<Transport<?>, List<Mechanic>> hashMapTransport= new HashMap<>();
+            hashMapTransport.put(car, mechanicList);
+            hashMapTransport.put(bus, mechanicList);
+            hashMapTransport.put(trukc, mechanicList);
+
+            System.out.println("Список водителей добавленных в HeshSet: ");
+            for (Driver driver : driverList) {
+                System.out.println(driver.getName());
+            }
+
+            for (Map.Entry<Transport<?>, List<Mechanic>> hash : hashMapTransport.entrySet()) {
+                System.out.println(hash.getKey() + " " + hash.getValue());
+            }
+
 
             ServiceStation serviceStation = new ServiceStation();
             serviceStation.addAutoQueue(car);

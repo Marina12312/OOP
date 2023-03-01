@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="Исключения">
-      <change afterPath="$PROJECT_DIR$/src/transport/Mechanic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transport/ServiceStation.java" afterDir="false" />
+    <list default="true" id="1c57be2e-3813-4f16-b158-c9b904256ece" name="Changes" comment="List и Queue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport/Trukc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Trukc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,9 @@
       <workItem from="1676537378891" duration="4835000" />
       <workItem from="1676816084245" duration="1407000" />
       <workItem from="1676901155771" duration="3232000" />
-      <workItem from="1677246866276" duration="3610000" />
+      <workItem from="1677246866276" duration="4478000" />
+      <workItem from="1677332609240" duration="1624000" />
+      <workItem from="1677675326729" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1675269715015</created>
@@ -146,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676907528988</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="List и Queue">
+      <created>1677250771335</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677250771335</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +174,7 @@
     <MESSAGE value="Enum" />
     <MESSAGE value="Enum исправила замечание" />
     <MESSAGE value="Исключения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исключения" />
+    <MESSAGE value="List и Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="List и Queue" />
   </component>
 </project>
