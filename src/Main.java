@@ -53,10 +53,11 @@ public class Main {
             hashMapTransport.put(trukc, mechanicList);
 
             System.out.println("Список водителей добавленных в HeshSet: ");
-            for (Driver driver : driverList) {
-                System.out.println(driver.getName());
-            }
 
+            Iterator<Driver> iterDrivers = driverList.iterator();
+            while (iterDrivers.hasNext()) {
+                System.out.println(iterDrivers.next());
+            }
             for (Map.Entry<Transport<?>, List<Mechanic>> hash : hashMapTransport.entrySet()) {
                 System.out.println(hash.getKey() + " " + hash.getValue());
             }
